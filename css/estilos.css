@@ -1,0 +1,59 @@
+body{
+  background-color
+  : #FFFFFF;
+}
+.header{
+  background-color: #F9F3E5;
+  color: #829D84;
+}
+.header a {
+  color: #829D84;
+  text-decoration: none;
+}
+body{
+  font-family: "Cormorant Infant";
+  letter-spacing: 1px;
+  color:#829D84;
+}
+.toping{
+  height: 280px;
+  background-image: url("../Sola.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  color: #829D84;
+  padding: 30px;
+  margin-top: 40px;
+}
+.menubar{
+  justify-content: space-between;
+  align-items: center;
+}
+section1, section2, section3{
+display: flex;
+flex-direction: column;
+/* width: 200px height: 200px; */
+}
+sectionM{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 200px;
+}
+div{
+display: flex;
+width: 250px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+p{
+  margin-top: 0px;
+  border-top: 0px
+}
