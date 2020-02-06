@@ -9,6 +9,8 @@ body{
 .header a {
   color: #829D84;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 body{
   font-family: "Cormorant Infant";
@@ -23,7 +25,7 @@ body{
   background-position-x: right;
   color: #829D84;
   padding: 30px;
-  margin-top: 40px;
+  margin-top: 100px;
   font-size: 25px;
   background-color: #FFFFFFCC;
 }
@@ -42,9 +44,14 @@ nav{
   align-items: center;
   padding-right: 140px
 }
-a#boton{
-padding: 10px;
-border:2px solid #FFFFFF;
+.btn-cita{
+  font-family: "Cormorant Infant";
+  letter-spacing: 1px;
+  color: white;
+  font-size: 25px;
+  background-color: #829D84;
+  border: 1px solid white;
+  padding: 8px;
 }
 footer{
   margin-top: 100px;
@@ -55,4 +62,13 @@ footer{
 footer div{
     display: flex;
     justify-content: space-around;
+    font-size: 15px
+}
+.QuienSoy{
+  background-color: #FFFFFFCC;
+  margin-top: 100px;
+  display: flex;
+}
+div{
+  margin-left: 80px
 }
