@@ -1,22 +1,19 @@
 body{
-  background-image: url("../Bao2.jpg");
-  background-size: cover;
-}
-.header{
-  background-color: #F9F3E5;
-  color: #829D84;
-}
-.header a {
-  color: #829D84;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-body{
+  background-image: url("../Single plant white.jpg");
   font-family: "Cormorant Infant";
   letter-spacing: 1px;
   color:#829D84;
   font-size: 25px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.header{
+  background-color: #F9F3E5;
+  color: #829D84;
+  height: 150px;
+  border-radius: 10px
+  display: flex;
+  align-items: center;
 }
 .toping{
   height: 310px;
@@ -27,7 +24,8 @@ body{
   padding: 30px;
   margin-top: 100px;
   font-size: 25px;
-  background-color: #FFFFFFCC;
+  background-color: #FFFFFFA1;
+  border-radius: 10px
 }
 .M{
   display: flex;
@@ -36,7 +34,8 @@ body{
   margin-top: 100px;
 }
 section.transparente{
-    background-color: #FFFFFFCC;
+    background-color: #FFFFFFA1;
+    border-radius: 10px;
 }
 nav{
   display: flex;
@@ -52,12 +51,14 @@ nav{
   background-color: #829D84;
   border: 1px solid white;
   padding: 8px;
+  border-radius: 10px
 }
 footer{
   margin-top: 100px;
-  font-size: 20px;
-  background-color: #FFFFFFCC;
+  font-size: 15px;
+  background-color: #FFFFFFA1;
   text-align: center;
+  border-radius: 10px
 }
 footer div{
     display: flex;
@@ -65,10 +66,11 @@ footer div{
     font-size: 15px
 }
 .QuienSoy{
-  background-color: #FFFFFFCC;
+  background-color: #FFFFFFA1;
   margin-top: 100px;
   display: flex;
+  border-radius: 10px
 }
 div{
-  margin-left: 80px
+  margin-left: 80px;
 }
