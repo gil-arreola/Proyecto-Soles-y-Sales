@@ -6,6 +6,7 @@ body{
   font-size: 25px;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 header.header{
   background-color: #F9F3E5;
@@ -39,9 +40,8 @@ section.transparente{
 }
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-right: 140px
 }
 .btn-cita{
   font-family: "Cormorant Infant";
