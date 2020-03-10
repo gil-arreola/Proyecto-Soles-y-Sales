@@ -1,0 +1,59 @@
+@import "_header";
+@import "_footer";
+$verde: #829D84;
+$transparency: #FFFFFFA1;
+$bordes: 10px;
+$margensuperior: 80px;
+body{
+  background-image: url("../Single plant white.jpg");
+  font-family: "Cormorant Infant";
+  letter-spacing: 1px;
+  color:$verde;
+  font-size: 25px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+    section.toping{
+      height: 310px;
+      background-image: url("../Sola.jpg");
+      background-repeat: no-repeat;
+      background-position-x: right;
+      padding: 30px;
+      margin-top: $margensuperior;
+      font-size: 25px;
+      background-color: $transparency;
+      border-radius: $bordes;
+    }
+    section.QuienSoy{
+      background-color: $transparency;
+      margin-top: $margensuperior;
+      display: flex;
+      border-radius: $bordes;
+        div{
+          margin-left: 80px;
+        }
+      }
+    section.M{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: $margensuperior;
+        section.transparente{
+          background-color: $transparency;
+          border-radius: $bordes;
+            img.transparente{
+              width: 100%;
+            }
+          @media screen and (max-width:768px){
+            section.transparente{
+              width: 45%;
+            }
+          }
+          @media screen and (max-width:480px){
+            section.transparente{
+              width: 80%;
+            }
+          }
+        }
+    }
+}
