@@ -1,5 +1,6 @@
 @import "_headerProyecto1";
 @import "_footerProyecto1";
+$transparency: #FFFFFF;
 body{
   background-image: url("../img/Single plant white.jpg");
   font-family: "Cormorant Infant";
@@ -18,11 +19,11 @@ body{
       padding: 30px;
       margin-top: 100px;
       font-size: 25px;
-      background-color: #FFFFFFA1;
+      background-color: $transparency;
       border-radius: 10px;
     }
     section.QuienSoy{
-      background-color: #FFFFFFA1;
+      background-color: $transparency;
       margin-top: 100px;
       display: flex;
       border-radius: 10px;
@@ -36,7 +37,7 @@ body{
       flex-wrap: wrap;
       margin-top: 100px;
         section.transparente{
-          background-color: #FFFFFFA1;
+          background-color: $transparency;
           border-radius: 10px;
             img.transparente{
               width: 100%;
