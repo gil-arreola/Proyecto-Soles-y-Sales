@@ -1,9 +1,10 @@
+$tamletra: 23px;
 $transparency: #FFFFFFCB;
+$verde: #829D84;
 @import "_header";
 @import "_footer";
-$verde: #829D84;
 $bordes: 10px;
-$margensuperior: 80px;
+$margensuperior: 90px;
 body{
   background-image: url("../Single plant white.jpg");
   font-family: "Cormorant Infant";
@@ -14,21 +15,51 @@ body{
   background-attachment: fixed;
   background-position: center;
     section.toping{
-      height: 310px;
       background-image: url("../Sola.jpg");
+      background-position: right;
       background-repeat: no-repeat;
-      background-position-x: right;
-      padding: 30px;
       margin-top: $margensuperior;
-      font-size: 25px;
+      font-size: $tamletra;
       background-color: $transparency;
       border-radius: $bordes;
+      padding: 1%;
+      padding-right: 45%;
+      h1{
+        display: flex;
+        justify-content: center;
+      }
+      p{
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+      }
+      h2{
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+      .btn-cita2{
+        font-family: "Cormorant Infant";
+        letter-spacing: 1px;
+        color: white;
+        font-size: $tamletra;
+        background-color: $verde;
+        border: 1px solid white;
+        padding: 8px;
+        border-radius: $bordes;
+        margin-top: -.5%;
+        margin-left: 2%;
+        }
+      }
     }
     section.QuienSoy{
       background-color: $transparency;
       margin-top: $margensuperior;
       display: flex;
       border-radius: $bordes;
+        img{
+        border-radius: $bordes;
+        }
         div{
           margin-left: 80px;
         }
@@ -53,6 +84,14 @@ body{
             section.transparente{
               width: 80%;
             }
+          }
+        h2{
+          display: flex;
+          justify-content: center;
+          }
+        p{
+          display: flex;
+          justify-content: center;
           }
         }
     }
