@@ -74,3 +74,12 @@ footer div{
 div{
   margin-left: 80px;
 }
+
+/* CSS para menu1.html */
+nav.livier{
+  display: flex;
+  justify-content: space-around;
+}
+img.menu1{
+border-radius: 10px;
+}
